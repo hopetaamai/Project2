@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color:#0D0D0D;
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    color: #F24405;
+    font-style: normal;
+    font-size: 25px;
+}
+  
+body{
+    width: 100%;
+}
+
+.container {
+    display: inline-block;
+    justify-content: center;
+    position: absolute;
+    margin: 10px;
+    top: 40%;
+    font-size: 25px;
+    text-align:center;
+
+  }
+  
+  #p1 {
+    letter-spacing: 3px;
+    border-right: 5px solid; 
+    width: 100%;
+    margin-left: 5%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+         typing 2s, 
+         cursor .4s step-end infinite alternate;
+ 
+ }
+
+
+
+ @keyframes cursor {
+    50% {border-color: transparent;}
+}
+@keyframes typing {
+    from {width: 0}
+}
